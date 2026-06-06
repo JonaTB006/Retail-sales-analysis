@@ -1,0 +1,1 @@
+This folder contains data model diagrams and related documentation.
