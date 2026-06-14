@@ -116,7 +116,17 @@ Currently working on:
 
 ## Future Deliverables
 
-- SQL analysis scripts
+- SQL analysis scripts (can be found in the `SQL` folder.)
+- The SQL phase began with an exploration of the WideWorldImportersDW data warehouse structure, including:
+        
+  - Schema identification
+  - Table inventory
+  - Column inspection
+  - Row count analysis
+  - Identification of key fields
+
+
+
 - Power BI dashboard
 - Business insights report
 - Recommendations for decision-making
