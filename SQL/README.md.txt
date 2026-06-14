@@ -1,8 +1,6 @@
 This folder contains all SQL scripts used throughout the project.
 
-## Contents
-
-### 01_Data_Exploration.sql
+01_Data_Exploration.sql
 
 Initial exploration of the WideWorldImportersDW database, including:
 
