@@ -108,9 +108,12 @@ retail-sales-analysis/
 
 🚧 Project In Progress
 
-Currently working on:
-- Data exploration
+Completed:
+- Initial data exploration
+
+In Progress:
 - Data model documentation
+- Identification of analytical tables
 
 ---
 
