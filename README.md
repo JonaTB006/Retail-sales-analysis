@@ -92,6 +92,8 @@ retail-sales-analysis/
         ├── Dimension.Stock Item
         ├── Dimension.City
         └── Dimension.Date
+
+![Analytical Data Model](Images/Analytical_Model.png)
         
 The analytical model was designed after exploring the WideWorldImportersDW data warehouse. Fact.Sale was selected as the central fact table due to its historical sales information and its relationships with customer, product, geography and date dimensions
 
