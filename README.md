@@ -13,8 +13,8 @@ The project follows a complete analytics workflow:
 
 1. Business Understanding
 2. Data Exploration
-3. Data Analysis with SQL
-4. KPI Development
+3. Document data model
+4. Data Analysis with SQL
 5. Dashboard Creation in Power BI
 6. Insights and Recommendations
 
