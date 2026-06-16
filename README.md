@@ -128,7 +128,8 @@ Completed:
 
 In Progress:
 
-KPIs definition
+- KPIs definition
+
 ---
 
 ## Future Deliverables
