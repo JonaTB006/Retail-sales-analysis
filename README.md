@@ -65,10 +65,10 @@ WideWorldImportersDW is Microsoft's sample data warehouse designed for Business 
 retail-sales-analysis/
 │
 ├── SQL/
+├── Data_Model/
 ├── PowerBI/
 ├── Documentation/
-├── Images/
-└── Data_Model/
+└── Images/
 ```
 
 ---
