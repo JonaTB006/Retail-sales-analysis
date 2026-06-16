@@ -120,11 +120,13 @@ The analytical model was designed after exploring the WideWorldImportersDW data 
 
 Completed:
 - Initial data exploration
-
-In Progress:
 - Data model documentation
 - Identification of analytical tables
 
+
+In Progress:
+
+KPIs definition
 ---
 
 ## Future Deliverables
