@@ -85,19 +85,29 @@ retail-sales-analysis/
 - Understand relationships
 - Document data model
 
-### Phase 3 - SQL Analysis
+### Phase 3 - Document data model
+        Fact.Sale
+        │
+        ├── Dimension.Customer
+        ├── Dimension.Stock Item
+        ├── Dimension.City
+        └── Dimension.Date
+        
+The analytical model was designed after exploring the WideWorldImportersDW data warehouse. Fact.Sale was selected as the central fact table due to its historical sales information and its relationships with customer, product, geography and date dimensions
+
+### Phase 4 - SQL Analysis
 - Sales analysis
 - Customer analysis
 - Product analysis
 - Geographic analysis
 - KPI calculation
 
-### Phase 4 - Dashboard Development
+### Phase 5 - Dashboard Development
 - Executive dashboard
 - Sales dashboard
 - Customer dashboard
 
-### Phase 5 - Insights & Recommendations
+### Phase 6 - Insights & Recommendations
 - Identify trends
 - Generate business recommendations
 - Present findings
