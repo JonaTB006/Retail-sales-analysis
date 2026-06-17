@@ -86,13 +86,14 @@ retail-sales-analysis/
 - Document data model
 
 ###Phase 3 - Document data model <a href="./DataModel"><img src="https://img.icons8.com/fluent/48/000000/folder-invoices.png" width="28" valign="middle"></a>
-
+```text
 Fact.Sale
     │
     ├── Dimension.Customer
     ├── Dimension.Stock Item
     ├── Dimension.City
     └── Dimension.Date
+```
 
 <img src="Images/AnalyticalModel.png" alt="Analytical Data Model" width="40%">
         
