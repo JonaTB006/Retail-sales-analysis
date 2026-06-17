@@ -75,11 +75,11 @@ retail-sales-analysis/
 
 ## Project Roadmap
 
-### Phase 1 - Business Understanding
+### Phase 1 - Business Understanding 
 - Define business objectives
 - Define key business questions
 
-### Phase 2 - Data Exploration
+##Phase 2 - Data Exploration <a href="./SQL"><img src="https://img.icons8.com/fluent/48/000000/folder-invoices.png" width="28" valign="middle"></a>
 - Identify fact tables
 - Identify dimension tables
 - Understand relationships
