@@ -1,0 +1,13 @@
+
+The next phase after implementing the executive KPIs should focus on customer analysis rather than jumping directly into Power BI development.
+
+This stage aims to answer business questions such as:
+
+* Who are the company's top customers?
+* What percentage of total revenue do they generate?
+* Is there an 80/20 revenue concentration (Pareto Principle)?
+* Which customer categories contribute the most to sales?
+
+The objective is to move beyond reporting metrics and begin generating meaningful business insights. These findings will later support the design of a more effective and insightful Power BI dashboard.
+
+At this point, the project transitions from measuring performance to understanding the drivers behind that performance. This is where the most valuable analytical insights often emerge.
