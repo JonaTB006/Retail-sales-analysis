@@ -130,7 +130,7 @@ Completed:
 
 In Progress:
 
-- KPIs definition
+- KPIs definition and analisys
 
 ---
 
