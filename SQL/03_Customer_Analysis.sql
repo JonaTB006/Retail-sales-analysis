@@ -34,22 +34,40 @@ ORDER BY Total_Revenue DESC;
 2.What percentage of total revenue do they generate?
 ------------------------------------------------------------*/
 
-WITH TOP_CUSTOMER AS (
-	SELECT 
+WITH CTE1 AS (
+	SELECT
 		C.Customer AS Customer,
 		SUM([Total Including Tax]) as Total_Revenue,
 		COUNT(DISTINCT S.[WWI Invoice ID]) AS Orders
 	FROM Fact.Sale AS S
 	INNER JOIN Dimension.Customer AS C
 		ON S.[Customer Key] = C.[Customer Key]
-	GROUP BY C.Customer)
-SELECT TOP 10 Customer,
+	GROUP BY C.Customer),
+CTE2 AS (
+	SELECT
+		Customer,
+		Total_Revenue,
+		Orders,
+		ROUND((Total_Revenue * 100.0)/SUM(Total_Revenue) OVER(),2) AS Revenue_Percentage
+	FROM CTE1),
+CTE3 AS(
+	SELECT TOP 10
+		Customer,
+		Total_Revenue,
+		Orders,
+		Revenue_Percentage
+	FROM CTE2
+	ORDER BY 2 DESC)
+SELECT
+	Customer,
 	Total_Revenue,
 	Orders,
-	(Total_Revenue / SUM(Total_Revenue) OVER()) * 100 AS Porcentage,
-	ROUND((Total_Revenue * 100.0) /
-		SUM(Total_Revenue) OVER(),2) AS Revenue_Percentage,
-	SUM((Total_Revenue * 100.0) /SUM(Total_Revenue) OVER()) 
-		OVER(ORDER BY Total_Revenue DESC) AS Cumulative_Percentage
-FROM TOP_CUSTOMER
-ORDER BY 2 DESC;
+	Revenue_Percentage,
+	SUM(Revenue_Percentage)OVER(ORDER BY Total_Revenue DESC) AS Cumulative_Percentage
+FROM CTE3;
+
+
+/*------------------------------------------------------------
+Hallazgo principal
+Los 10 clientes con mayor facturación representan aproximadamente un 35% de los ingresos totales de la empresa. Esto indica una cartera de clientes diversificada, donde el negocio no depende críticamente de un puñado de cuentas grandes.
+------------------------------------------------------------*/
