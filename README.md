@@ -32,14 +32,14 @@ The goal is to identify opportunities for growth and support data-driven decisio
 
 The analysis aims to answer the following questions:
 
-- How have sales evolved over time?
-- Which products generate the highest revenue?
 - Which customers contribute the most revenue?
-- Which cities generate the highest sales?
-- Are there seasonal sales patterns?
-- Which product categories perform best?
 - What percentage of revenue comes from top customers?
-
+- Which products generate the highest revenue?
+- Which product categories perform best?
+- Which cities generate the highest sales?
+- How have sales evolved over time?
+- Are there seasonal sales patterns?
+  
 ---
 
 ## Dataset
