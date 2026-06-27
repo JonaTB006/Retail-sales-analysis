@@ -5,8 +5,10 @@ End-to-end retail sales analysis using SQL Server, WideWorldImportersDW and Powe
 
 ## Project Overview
 
-This project analyzes retail sales data from Microsoft's WideWorldImportersDW database.
+This project analyzes retail sales data set from Microsoft's WideWorldImportersDW database.
 
+A retail company wants to better understand its sales performance, customer behavior, product performance, and geographic distribution of revenue.
+The goal is to identify opportunities for growth and support data-driven decision-making.
 The objective is to transform raw transactional data into actionable business insights through SQL analysis and interactive Power BI dashboards.
 
 The project follows a complete analytics workflow:
@@ -17,14 +19,6 @@ The project follows a complete analytics workflow:
 4. Data Analysis with SQL
 5. Dashboard Creation in Power BI
 6. Insights and Recommendations
-
----
-
-## Business Problem
-
-A retail company wants to better understand its sales performance, customer behavior, product performance, and geographic distribution of revenue.
-
-The goal is to identify opportunities for growth and support data-driven decision-making.
 
 ---
 
@@ -39,14 +33,6 @@ The analysis aims to answer the following questions:
 - Which cities generate the highest sales?
 - How have sales evolved over time?
 - Are there seasonal sales patterns?
-  
----
-
-## Dataset
-
-Database: WideWorldImportersDW
-
-WideWorldImportersDW is Microsoft's sample data warehouse designed for Business Intelligence and analytics scenarios.
 
 ---
 
@@ -101,7 +87,7 @@ The analytical model was designed after exploring the WideWorldImportersDW data 
 
 ###Phase 4 - SQL Analysis <a href="./SQL"><img src="https://img.icons8.com/fluent/48/000000/folder-invoices.png" width="28" valign="middle"></a>
 - Sales analysis
-- Customer analysis
+- Customer analysis <a href="./SQL/Customer Analysis"><img src="https://img.icons8.com/fluent/48/000000/folder-invoices.png" width="28" valign="middle"></a>
 - Product analysis
 - Geographic analysis
 - KPI calculation
