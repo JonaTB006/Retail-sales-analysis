@@ -1,5 +1,3 @@
-
-
 Customer Revenue Analysis — Summary of Findings
 
 Business Questions Addressed
@@ -19,13 +17,6 @@ During the analysis, a significant data quality issue was discovered: Customer K
 This single ID represents 36.88% of total company revenue.
 The same pattern appears in the Buying Group dimension, where an "N/A" group accounts for the exact same revenue share — confirming that these are the same unattributed transactions, simply lacking customer and buying-group identification.
 Given the scale (over a third of total revenue) and the fact that these sales are spread across what are likely many different transactions rather than one single account, it was concluded that this is real revenue without proper customer attribution (e.g., walk-in or unregistered sales), rather than a technical artifact to be discarded entirely.
-
-
-Decision Framework Applied
-
-QuestionShould "Unknown" be included?What is the company's total revenue?✅ Yes — it is real revenueWho are the top customers?❌ No — it does not represent an identifiable customerWhat % of revenue do top customers represent (against total real revenue)?✅ Included in the denominator onlyHow is revenue distributed among Buying Groups?❌ No — excluded for a meaningful 2-group comparison
-
-This distinction was applied consistently across all subsequent queries: the "Unknown" segment is always included when calculating total revenue, but excluded whenever the analysis specifically discusses identified customers or groups.
 
 
 Finding 1 — Top 10 Customers (Real, Identified Customers)
