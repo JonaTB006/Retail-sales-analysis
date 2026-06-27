@@ -101,7 +101,7 @@ The analytical model was designed after exploring the WideWorldImportersDW data 
 
 ###Phase 4 - SQL Analysis <a href="./SQL"><img src="https://img.icons8.com/fluent/48/000000/folder-invoices.png" width="28" valign="middle"></a>
 - Sales analysis
-- Customer analysis
+- Customer analysis <a href="./Customer Analysis"><img src="https://img.icons8.com/fluent/48/000000/folder-invoices.png" width="28" valign="middle"></a>
 - Product analysis
 - Geographic analysis
 - KPI calculation
