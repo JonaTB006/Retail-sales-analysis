@@ -90,7 +90,7 @@ The analytical model was designed after exploring the WideWorldImportersDW data 
 - Customer analysis <a href="./SQL/Customer Analysis"><img src="https://img.icons8.com/fluent/48/000000/folder-invoices.png" width="28" valign="middle"></a>
 - Product analysis
 - Geographic analysis
-- KPI calculation
+- KPI calculation <a href="./SQL/KPI Calculations"><img src="https://img.icons8.com/fluent/48/000000/folder-invoices.png" width="28" valign="middle"></a>
 
 ###Phase 5 - Dashboard Development <a href="./Power BI"><img src="https://img.icons8.com/fluent/48/000000/folder-invoices.png" width="28" valign="middle"></a>
 - Executive dashboard
